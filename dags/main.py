@@ -65,6 +65,7 @@ def dvc_push():
 urls = ['https://www.dawn.com/', 'https://www.bbc.com/']
 filename = "/mnt/d/uni stuff/Semester #8/mlops/work/MLOps_Assignment_2/airflow-data-scraping-pipeline/data/extracted.csv"
 
+
 ######  dag specifications
 
 default_args = {
