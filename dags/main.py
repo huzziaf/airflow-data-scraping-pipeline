@@ -56,7 +56,7 @@ def save_to_csv(file_name, articles):
 def dvc_push():
     os.system('dvc add /mnt/d/uni stuff/Semester #8/mlops/work/MLOps_Assignment_2/airflow-data-scraping-pipeline/data/extracted.csv')
     os.system('dvc push')
-    os.system('git add /mnt/d/uni stuff/Semester #8/mlops/work/MLOps_Assignment_2/airflow-data-scraping-pipeline/data/extracted.csv.dvc')
+    os.system('git add .')
     os.system('git commit -m "Updated dataset"')
     os.system('git push origin main')
     os.system('git status')
